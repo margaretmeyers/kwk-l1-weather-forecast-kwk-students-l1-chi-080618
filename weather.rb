@@ -21,7 +21,9 @@ end
 
 def report(weather)
   weather.each do |x, y|
-    return "The weather in #{city} is #{description}. The te"
+    return "The weather in #{city} is #{description}. The temperature is #{temperature} degrees Farenheit."
+  end 
+end 
 
 #4. Write a method that takes in the weather hash as an argument. 
 # You'll want to use the each method to iterate over the hash and print out
