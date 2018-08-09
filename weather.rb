@@ -22,7 +22,7 @@ end
 def report(weather)
   # weather.each do |x, y|
     return "The weather in #{weather[:city]} is #{weather[:description]}. The temperature is #{weather[:temperature_farenheit]} degrees Farenheit."
-  end 
+  # end 
 end 
 
 #4. Write a method that takes in the weather hash as an argument. 
